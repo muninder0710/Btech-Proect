@@ -1,0 +1,9 @@
+form,competitor,better,worse,no clear difference
+published,PSO,12,1,0
+published,GWO,10,0,3
+published,CPO,4,5,4
+published,GWO-PSO,12,0,1
+shifted,PSO,12,1,0
+shifted,GWO,6,0,7
+shifted,CPO,1,9,3
+shifted,GWO-PSO,5,1,7

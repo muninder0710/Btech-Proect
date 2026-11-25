@@ -1,0 +1,129 @@
+task,missing,selector,classifier,macro_f1_mean,macro_f1_std,bacc_mean,bacc_std,acc_mean,acc_std,n_features_mean,n_features_std
+two-class,median,none,5-NN,0.5854,0.0484,0.613,0.04,0.6385,0.0384,256.72,3.0485
+two-class,median,none,SVM,0.7466,0.044,0.7455,0.0424,0.7562,0.0413,256.72,3.0485
+two-class,median,none,random forest,0.8097,0.0377,0.8084,0.0373,0.8124,0.0371,256.72,3.0485
+two-class,median,none,XGBoost,0.7883,0.0363,0.7878,0.036,0.7912,0.0354,256.72,3.0485
+two-class,median,ReliefF,5-NN,0.6834,0.0464,0.6867,0.0434,0.7005,0.0428,14.8,12.3727
+two-class,median,ReliefF,SVM,0.7569,0.0336,0.7551,0.0329,0.7641,0.0324,69.2,28.856
+two-class,median,ReliefF,random forest,0.8148,0.0373,0.8144,0.0375,0.8169,0.0366,69.6,33.4764
+two-class,median,ReliefF,XGBoost,0.781,0.043,0.781,0.0421,0.7832,0.043,64.4,36.2951
+two-class,median,mutual information,5-NN,0.6629,0.0491,0.6661,0.0474,0.6796,0.0477,15.6,12.1895
+two-class,median,mutual information,SVM,0.7538,0.0364,0.7522,0.0353,0.7624,0.0368,71.2,31.4006
+two-class,median,mutual information,random forest,0.8109,0.0369,0.8104,0.0369,0.8133,0.0363,84.0,26.9258
+two-class,median,mutual information,XGBoost,0.7952,0.0408,0.7947,0.0404,0.7982,0.0402,78.0,25.3311
+two-class,median,mRMR,5-NN,0.7215,0.0414,0.7215,0.0397,0.7328,0.0394,14.0,8.7797
+two-class,median,mRMR,SVM,0.7297,0.0464,0.7289,0.045,0.7385,0.0454,84.0,32.914
+two-class,median,mRMR,random forest,0.8188,0.0384,0.8184,0.0384,0.8208,0.0381,82.8,28.6531
+two-class,median,mRMR,XGBoost,0.799,0.0426,0.7983,0.0417,0.8014,0.0428,75.6,31.3688
+two-class,median,IBGWO4 as published,5-NN,0.705,0.0538,0.7073,0.0495,0.7212,0.0473,29.52,14.2715
+two-class,median,IBGWO4 as published,SVM,0.7325,0.0437,0.7328,0.0415,0.7456,0.04,29.52,14.2715
+two-class,median,IBGWO4 as published,random forest,0.7728,0.0479,0.7728,0.0475,0.776,0.0474,29.52,14.2715
+two-class,median,IBGWO4 as published,XGBoost,0.7352,0.0562,0.7351,0.0561,0.7393,0.0551,29.52,14.2715
+two-class,median,GWO-CPO guided,5-NN,0.7312,0.0455,0.7311,0.0439,0.7429,0.0424,8.64,2.6122
+two-class,median,GWO-CPO guided,SVM,0.7426,0.0306,0.742,0.0295,0.7539,0.0287,8.64,2.6122
+two-class,median,GWO-CPO guided,random forest,0.7755,0.0368,0.7753,0.0368,0.7783,0.0363,8.64,2.6122
+two-class,median,GWO-CPO guided,XGBoost,0.7392,0.0467,0.7393,0.0458,0.7424,0.0472,8.64,2.6122
+two-class,median,BPSO guided,5-NN,0.7202,0.0454,0.7212,0.0425,0.7353,0.0414,18.48,3.9908
+two-class,median,BPSO guided,SVM,0.7514,0.0383,0.7504,0.0367,0.7619,0.0361,18.48,3.9908
+two-class,median,BPSO guided,random forest,0.795,0.0325,0.7949,0.0315,0.7973,0.0329,18.48,3.9908
+two-class,median,BPSO guided,XGBoost,0.7694,0.0321,0.7693,0.0322,0.7725,0.0323,18.48,3.9908
+two-class,median,GA guided,5-NN,0.7246,0.0367,0.7253,0.0348,0.7398,0.0343,31.2,5.8095
+two-class,median,GA guided,SVM,0.7431,0.0524,0.7424,0.0509,0.7544,0.0513,31.2,5.8095
+two-class,median,GA guided,random forest,0.8105,0.0312,0.81,0.0301,0.8128,0.0315,31.2,5.8095
+two-class,median,GA guided,XGBoost,0.7762,0.039,0.7756,0.0385,0.7796,0.0381,31.2,5.8095
+two-class,median + indicators,none,5-NN,0.5737,0.0474,0.6054,0.0368,0.6318,0.0348,261.32,2.9257
+two-class,median + indicators,none,SVM,0.7546,0.0425,0.7536,0.0406,0.7655,0.0389,261.32,2.9257
+two-class,median + indicators,none,random forest,0.8042,0.0381,0.8029,0.0379,0.8071,0.0375,261.32,2.9257
+two-class,median + indicators,none,XGBoost,0.7883,0.0363,0.7878,0.036,0.7912,0.0354,261.32,2.9257
+two-class,median + indicators,ReliefF,5-NN,0.6678,0.0596,0.6732,0.0537,0.688,0.0509,15.8,8.2513
+two-class,median + indicators,ReliefF,SVM,0.7718,0.0347,0.7696,0.0339,0.7792,0.0333,90.4,22.8181
+two-class,median + indicators,ReliefF,random forest,0.8114,0.0399,0.8111,0.0397,0.8133,0.0397,67.6,30.4521
+two-class,median + indicators,ReliefF,XGBoost,0.7784,0.0343,0.7781,0.0338,0.7814,0.0339,62.8,32.4705
+two-class,median + indicators,mutual information,5-NN,0.664,0.0399,0.6704,0.0372,0.6877,0.0381,22.0,12.1621
+two-class,median + indicators,mutual information,SVM,0.7518,0.0316,0.7504,0.0306,0.7615,0.0298,69.2,34.3899
+two-class,median + indicators,mutual information,random forest,0.8133,0.0358,0.8128,0.0359,0.8155,0.0352,80.8,29.5691
+two-class,median + indicators,mutual information,XGBoost,0.7813,0.0517,0.7815,0.051,0.784,0.051,75.2,29.4562
+two-class,median + indicators,mRMR,5-NN,0.7218,0.0469,0.7222,0.0445,0.7341,0.0433,13.0,10.5079
+two-class,median + indicators,mRMR,SVM,0.7356,0.033,0.7347,0.0321,0.7451,0.0321,85.2,27.556
+two-class,median + indicators,mRMR,random forest,0.8215,0.0326,0.821,0.0328,0.8235,0.0324,89.2,22.3458
+two-class,median + indicators,mRMR,XGBoost,0.7933,0.0389,0.793,0.0381,0.7956,0.0389,69.6,33.3517
+two-class,median + indicators,IBGWO4 as published,5-NN,0.6975,0.0583,0.7004,0.0539,0.7146,0.0517,34.2,13.1719
+two-class,median + indicators,IBGWO4 as published,SVM,0.7394,0.0363,0.7389,0.035,0.7517,0.0347,34.2,13.1719
+two-class,median + indicators,IBGWO4 as published,random forest,0.7781,0.0427,0.7769,0.0425,0.7819,0.042,34.2,13.1719
+two-class,median + indicators,IBGWO4 as published,XGBoost,0.745,0.0424,0.7444,0.0421,0.7491,0.0415,34.2,13.1719
+two-class,median + indicators,GWO-CPO guided,5-NN,0.7339,0.0427,0.7333,0.041,0.7434,0.0405,8.0,2.4152
+two-class,median + indicators,GWO-CPO guided,SVM,0.7377,0.0454,0.7379,0.0427,0.7495,0.0405,8.0,2.4152
+two-class,median + indicators,GWO-CPO guided,random forest,0.7767,0.0416,0.7768,0.0418,0.7793,0.0409,8.0,2.4152
+two-class,median + indicators,GWO-CPO guided,XGBoost,0.7426,0.054,0.7431,0.054,0.7452,0.0532,8.0,2.4152
+two-class,median + indicators,BPSO guided,5-NN,0.7285,0.0321,0.729,0.0301,0.7425,0.0295,17.52,4.7269
+two-class,median + indicators,BPSO guided,SVM,0.7493,0.0453,0.7485,0.0427,0.7607,0.0415,17.52,4.7269
+two-class,median + indicators,BPSO guided,random forest,0.7963,0.0428,0.7958,0.0425,0.7992,0.0418,17.52,4.7269
+two-class,median + indicators,BPSO guided,XGBoost,0.7558,0.0477,0.7555,0.0472,0.7602,0.0463,17.52,4.7269
+two-class,median + indicators,GA guided,5-NN,0.7232,0.0434,0.7236,0.0411,0.7358,0.0397,30.72,6.1408
+two-class,median + indicators,GA guided,SVM,0.7475,0.0404,0.7462,0.0393,0.7575,0.0393,30.72,6.1408
+two-class,median + indicators,GA guided,random forest,0.7999,0.0531,0.8,0.0529,0.8022,0.0516,30.72,6.1408
+two-class,median + indicators,GA guided,XGBoost,0.7741,0.0524,0.7741,0.0518,0.777,0.0513,30.72,6.1408
+twelve-class,median,none,5-NN,0.2232,0.0564,0.2167,0.0528,0.596,0.0257,257.24,1.5885
+twelve-class,median,none,SVM,0.4788,0.0826,0.5228,0.0936,0.5702,0.0833,257.24,1.5885
+twelve-class,median,none,random forest,0.4391,0.0372,0.4319,0.0364,0.739,0.0247,257.24,1.5885
+twelve-class,median,none,XGBoost,0.4764,0.0546,0.4846,0.0495,0.7394,0.0302,257.24,1.5885
+twelve-class,median,ReliefF,5-NN,0.274,0.0481,0.269,0.0454,0.6155,0.0265,70.0,35.9398
+twelve-class,median,ReliefF,SVM,0.4313,0.0703,0.4928,0.0905,0.5155,0.0489,83.2,25.285
+twelve-class,median,ReliefF,random forest,0.4705,0.0536,0.4707,0.0554,0.7514,0.0339,50.0,21.2132
+twelve-class,median,ReliefF,XGBoost,0.4564,0.0443,0.4571,0.0464,0.7203,0.0272,59.2,32.9039
+twelve-class,median,mutual information,5-NN,0.3172,0.0641,0.3137,0.0598,0.6452,0.0304,24.0,13.5401
+twelve-class,median,mutual information,SVM,0.4363,0.077,0.4863,0.0963,0.5828,0.0704,88.8,23.5089
+twelve-class,median,mutual information,random forest,0.4674,0.0517,0.4641,0.0498,0.747,0.0392,60.4,26.533
+twelve-class,median,mutual information,XGBoost,0.4615,0.0724,0.4624,0.0674,0.7182,0.0378,62.0,30.4138
+twelve-class,median,mRMR,5-NN,0.3227,0.0636,0.3105,0.0585,0.6535,0.0288,21.4,22.9819
+twelve-class,median,mRMR,SVM,0.4682,0.0607,0.5176,0.0765,0.6022,0.06,62.8,27.4651
+twelve-class,median,mRMR,random forest,0.4509,0.0488,0.4482,0.049,0.7416,0.0345,46.4,33.1512
+twelve-class,median,mRMR,XGBoost,0.4667,0.055,0.4746,0.0568,0.7239,0.0301,69.2,28.856
+twelve-class,median,IBGWO4 as published,5-NN,0.3841,0.0661,0.3803,0.0626,0.6925,0.0392,19.64,7.6206
+twelve-class,median,IBGWO4 as published,SVM,0.4359,0.0728,0.5003,0.0865,0.5518,0.1103,19.64,7.6206
+twelve-class,median,IBGWO4 as published,random forest,0.4357,0.0577,0.4402,0.0528,0.7319,0.0342,19.64,7.6206
+twelve-class,median,IBGWO4 as published,XGBoost,0.4221,0.0527,0.4298,0.0513,0.7054,0.0336,19.64,7.6206
+twelve-class,median,GWO-CPO guided,5-NN,0.4139,0.0554,0.4061,0.0537,0.6911,0.0369,8.56,1.9596
+twelve-class,median,GWO-CPO guided,SVM,0.4371,0.0732,0.5162,0.0917,0.5431,0.0965,8.56,1.9596
+twelve-class,median,GWO-CPO guided,random forest,0.4561,0.0593,0.4613,0.0587,0.7221,0.0375,8.56,1.9596
+twelve-class,median,GWO-CPO guided,XGBoost,0.4347,0.0506,0.4391,0.05,0.688,0.036,8.56,1.9596
+twelve-class,median,BPSO guided,5-NN,0.3791,0.0802,0.3748,0.0741,0.6836,0.0517,18.52,6.52
+twelve-class,median,BPSO guided,SVM,0.4461,0.0691,0.5134,0.0758,0.5518,0.105,18.52,6.52
+twelve-class,median,BPSO guided,random forest,0.4597,0.0726,0.4621,0.0699,0.7346,0.039,18.52,6.52
+twelve-class,median,BPSO guided,XGBoost,0.4436,0.0668,0.4431,0.0755,0.6995,0.0333,18.52,6.52
+twelve-class,median,GA guided,5-NN,0.3741,0.0517,0.367,0.0531,0.6779,0.0348,31.96,5.0866
+twelve-class,median,GA guided,SVM,0.4346,0.0679,0.4793,0.0841,0.5517,0.1431,31.96,5.0866
+twelve-class,median,GA guided,random forest,0.4432,0.0551,0.4435,0.0493,0.7355,0.0345,31.96,5.0866
+twelve-class,median,GA guided,XGBoost,0.4617,0.0639,0.4662,0.0674,0.7138,0.0363,31.96,5.0866
+twelve-class,median + indicators,none,5-NN,0.2192,0.0622,0.2162,0.0581,0.5947,0.0246,261.84,1.4048
+twelve-class,median + indicators,none,SVM,0.4649,0.0714,0.5017,0.0776,0.5756,0.0857,261.84,1.4048
+twelve-class,median + indicators,none,random forest,0.4336,0.0354,0.4285,0.035,0.7377,0.0276,261.84,1.4048
+twelve-class,median + indicators,none,XGBoost,0.4799,0.0557,0.4886,0.0513,0.7407,0.0303,261.84,1.4048
+twelve-class,median + indicators,ReliefF,5-NN,0.2823,0.0615,0.2766,0.058,0.6248,0.0281,60.8,32.3934
+twelve-class,median + indicators,ReliefF,SVM,0.4651,0.0769,0.5174,0.0946,0.5345,0.0497,83.2,25.285
+twelve-class,median + indicators,ReliefF,random forest,0.4682,0.0532,0.4677,0.0558,0.7483,0.034,50.4,24.7454
+twelve-class,median + indicators,ReliefF,XGBoost,0.4929,0.0691,0.4961,0.0714,0.7341,0.033,60.8,31.4802
+twelve-class,median + indicators,mutual information,5-NN,0.3012,0.0508,0.3002,0.0474,0.6288,0.0309,40.8,29.2859
+twelve-class,median + indicators,mutual information,SVM,0.45,0.0789,0.5054,0.1008,0.5743,0.0792,100.0,0.0
+twelve-class,median + indicators,mutual information,random forest,0.4544,0.0609,0.4532,0.0564,0.7434,0.0368,58.8,24.7184
+twelve-class,median + indicators,mutual information,XGBoost,0.4677,0.0516,0.4696,0.0574,0.7301,0.0398,68.8,31.6649
+twelve-class,median + indicators,mRMR,5-NN,0.3254,0.0629,0.3122,0.0559,0.6549,0.0277,21.4,22.9819
+twelve-class,median + indicators,mRMR,SVM,0.4657,0.0589,0.5144,0.0787,0.5981,0.0637,60.8,26.4449
+twelve-class,median + indicators,mRMR,random forest,0.4455,0.0414,0.4459,0.0369,0.7403,0.036,53.2,34.7275
+twelve-class,median + indicators,mRMR,XGBoost,0.4626,0.051,0.4703,0.0556,0.7262,0.0327,78.0,28.2843
+twelve-class,median + indicators,IBGWO4 as published,5-NN,0.3518,0.0632,0.3495,0.0589,0.6668,0.0364,24.72,8.2942
+twelve-class,median + indicators,IBGWO4 as published,SVM,0.4257,0.0652,0.4874,0.0791,0.5497,0.1135,24.72,8.2942
+twelve-class,median + indicators,IBGWO4 as published,random forest,0.4154,0.0704,0.4283,0.067,0.7182,0.0462,24.72,8.2942
+twelve-class,median + indicators,IBGWO4 as published,XGBoost,0.414,0.0726,0.4244,0.0795,0.6898,0.0455,24.72,8.2942
+twelve-class,median + indicators,GWO-CPO guided,5-NN,0.4132,0.0605,0.4018,0.0611,0.6916,0.0334,8.96,1.8592
+twelve-class,median + indicators,GWO-CPO guided,SVM,0.4282,0.0651,0.5043,0.0862,0.5396,0.1044,8.96,1.8592
+twelve-class,median + indicators,GWO-CPO guided,random forest,0.4565,0.0574,0.4667,0.0566,0.7288,0.0383,8.96,1.8592
+twelve-class,median + indicators,GWO-CPO guided,XGBoost,0.4369,0.0466,0.4446,0.0518,0.6881,0.0369,8.96,1.8592
+twelve-class,median + indicators,BPSO guided,5-NN,0.4048,0.0597,0.3996,0.0561,0.6832,0.0324,18.76,4.8843
+twelve-class,median + indicators,BPSO guided,SVM,0.4323,0.0616,0.4907,0.0857,0.5686,0.0866,18.76,4.8843
+twelve-class,median + indicators,BPSO guided,random forest,0.4648,0.0539,0.4667,0.0489,0.7394,0.0412,18.76,4.8843
+twelve-class,median + indicators,BPSO guided,XGBoost,0.4364,0.0432,0.4389,0.0417,0.7022,0.0373,18.76,4.8843
+twelve-class,median + indicators,GA guided,5-NN,0.396,0.0561,0.3884,0.057,0.6753,0.0376,33.16,7.674
+twelve-class,median + indicators,GA guided,SVM,0.449,0.0564,0.5214,0.0765,0.5501,0.1317,33.16,7.674
+twelve-class,median + indicators,GA guided,random forest,0.4632,0.0552,0.4635,0.0506,0.7439,0.0371,33.16,7.674
+twelve-class,median + indicators,GA guided,XGBoost,0.4648,0.0479,0.4679,0.0491,0.7208,0.0373,33.16,7.674

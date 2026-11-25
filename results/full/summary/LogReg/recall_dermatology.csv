@@ -1,0 +1,14 @@
+Method,psoriasis,seborrheic dermatitis,lichen planus,pityriasis rosea,chronic dermatitis,pityriasis rubra pilaris
+BPSO / accuracy,0.998,0.915,0.986,0.902,0.996,1.0
+BGWO / accuracy,0.984,0.934,0.989,0.886,0.996,1.0
+BCPO / accuracy,0.993,0.918,0.983,0.89,1.0,1.0
+IBGWO4 / accuracy,0.984,0.934,0.981,0.869,0.992,1.0
+GWO-CPO / accuracy,0.984,0.915,0.981,0.869,0.996,1.0
+BPSO / imbalance,0.996,0.902,0.994,0.91,0.996,1.0
+BGWO / imbalance,0.991,0.918,0.997,0.89,1.0,1.0
+BCPO / imbalance,0.988,0.921,0.981,0.886,1.0,0.97
+IBGWO4 / imbalance,0.988,0.915,0.986,0.89,0.996,0.99
+GWO-CPO / imbalance,0.989,0.895,0.983,0.886,0.992,1.0
+All features,1.0,0.911,0.989,0.922,1.0,1.0
+ANOVA-k,0.998,0.239,0.992,0.882,0.996,0.98
+Majority,1.0,0.0,0.0,0.0,0.0,0.0

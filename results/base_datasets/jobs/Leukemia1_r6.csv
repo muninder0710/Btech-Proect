@@ -1,0 +1,9 @@
+dataset,run,reading,arm,algorithm,fitness,start,start_size,n_features,best_fitness,acc,bacc,macro_f1
+Leukemia1,6,paper,base as published,IBGWO4,accuracy,random,2682.4,4,7.508916838746011e-06,1.0,1.0,1.0
+Leukemia1,6,paper,hybrid alone,GWO-CPO,accuracy,random,2682.4,7,1.3140604467805521e-05,1.0,1.0,1.0
+Leukemia1,6,paper,base with smart start,IBGWO4,accuracy,informed,34.8,4,7.508916838746011e-06,1.0,1.0,1.0
+Leukemia1,6,paper,proposed,GWO-CPO,imbalance,informed,34.8,3,5.631687629059508e-06,1.0,1.0,1.0
+Leukemia1,6,clean,base as published,IBGWO4,accuracy,random,2682.4,21,0.01740784286603505,0.8666666666666667,0.8222222222222223,0.8546296296296297
+Leukemia1,6,clean,hybrid alone,GWO-CPO,accuracy,random,2682.4,12,0.01739094780314787,0.9333333333333333,0.9333333333333332,0.9153439153439153
+Leukemia1,6,clean,base with smart start,IBGWO4,accuracy,informed,34.8,7,1.314060446780552e-05,1.0,1.0,1.0
+Leukemia1,6,clean,proposed,GWO-CPO,imbalance,informed,34.8,7,1.314060446780552e-05,1.0,1.0,1.0

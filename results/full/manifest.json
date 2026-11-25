@@ -1,0 +1,28 @@
+{
+ "settings": {
+  "repeats": 5,
+  "outer_splits": 5,
+  "outer_seed": 42,
+  "inner_splits": 3,
+  "population": 20,
+  "budget": 2000,
+  "neighbours": 5,
+  "algorithms": [
+   "BPSO",
+   "BGWO",
+   "BCPO",
+   "IBGWO4",
+   "GWO-CPO"
+  ],
+  "tasks": [
+   "arrhythmia-binary",
+   "arrhythmia-multiclass",
+   "lymphography",
+   "dermatology",
+   "spect",
+   "statlog-heart",
+   "wdbc"
+  ]
+ },
+ "source_sha256": "78bb7e879b2aecf1d4aa7acd3cc47aae4fb28664cb889a72598f68dcc3225ddd"
+}

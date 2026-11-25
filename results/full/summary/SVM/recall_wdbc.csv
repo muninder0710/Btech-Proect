@@ -1,0 +1,14 @@
+Method,benign,malignant
+BPSO / accuracy,0.974,0.953
+BGWO / accuracy,0.975,0.953
+BCPO / accuracy,0.977,0.952
+IBGWO4 / accuracy,0.973,0.959
+GWO-CPO / accuracy,0.976,0.951
+BPSO / imbalance,0.98,0.958
+BGWO / imbalance,0.97,0.953
+BCPO / imbalance,0.976,0.952
+IBGWO4 / imbalance,0.979,0.947
+GWO-CPO / imbalance,0.977,0.945
+All features,0.979,0.961
+ANOVA-k,0.942,0.944
+Majority,1.0,0.0

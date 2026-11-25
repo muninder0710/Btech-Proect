@@ -1,0 +1,111 @@
+question,task,selector,classifier,a,b,n_folds,mean_diff,ci_low,ci_high,wins,ties,losses,p_exploratory,p_holm,claim,verdict
+Q1 indicators,two-class,none,5-NN,median + indicators,median,25.0,-0.0117,-0.0226,0.0007,8.0,2.0,15.0,0.0522,0.2089,True,no clear difference
+Q1 indicators,two-class,none,SVM,median + indicators,median,25.0,0.0081,-0.0015,0.0172,16.0,2.0,7.0,0.1601,0.4803,True,no clear difference
+Q1 indicators,two-class,none,random forest,median + indicators,median,25.0,-0.0055,-0.0131,0.0018,8.0,4.0,13.0,0.2157,0.4803,True,no clear difference
+Q1 indicators,two-class,none,XGBoost,median + indicators,median,25.0,0.0,0.0,0.0,0.0,25.0,0.0,1.0,1.0,True,no clear difference
+Q2 selection,two-class,ReliefF,5-NN,ReliefF,none,25.0,0.098,0.0777,0.1193,25.0,0.0,0.0,0.0,0.0,True,higher
+Q2 selection,two-class,mutual information,5-NN,mutual information,none,25.0,0.0775,0.0534,0.101,21.0,0.0,4.0,0.0,0.0,True,higher
+Q2 selection,two-class,mRMR,5-NN,mRMR,none,25.0,0.1361,0.1205,0.1519,25.0,0.0,0.0,0.0,0.0,True,higher
+Q2 selection,two-class,IBGWO4 as published,5-NN,IBGWO4 as published,none,25.0,0.1196,0.0925,0.1459,23.0,0.0,2.0,0.0,0.0,True,higher
+Q2 selection,two-class,GWO-CPO guided,5-NN,GWO-CPO guided,none,25.0,0.1458,0.1216,0.1695,25.0,0.0,0.0,0.0,0.0,True,higher
+Q2 selection,two-class,BPSO guided,5-NN,BPSO guided,none,25.0,0.1348,0.1099,0.1564,24.0,0.0,1.0,0.0,0.0,True,higher
+Q2 selection,two-class,GA guided,5-NN,GA guided,none,25.0,0.1392,0.1212,0.1579,25.0,0.0,0.0,0.0,0.0,True,higher
+Q2 selection,two-class,ReliefF,SVM,ReliefF,none,25.0,0.0103,-0.0036,0.0238,16.0,1.0,8.0,0.1208,0.8459,True,no clear difference
+Q2 selection,two-class,mutual information,SVM,mutual information,none,25.0,0.0073,-0.0112,0.0252,14.0,0.0,11.0,0.3254,1.0,True,no clear difference
+Q2 selection,two-class,mRMR,SVM,mRMR,none,25.0,-0.0168,-0.0354,-0.0005,10.0,2.0,13.0,0.1895,1.0,True,no clear difference
+Q2 selection,two-class,IBGWO4 as published,SVM,IBGWO4 as published,none,25.0,-0.014,-0.0314,0.0031,8.0,0.0,17.0,0.1908,1.0,True,no clear difference
+Q2 selection,two-class,GWO-CPO guided,SVM,GWO-CPO guided,none,25.0,-0.0039,-0.02,0.0125,11.0,0.0,14.0,0.7112,1.0,True,no clear difference
+Q2 selection,two-class,BPSO guided,SVM,BPSO guided,none,25.0,0.0049,-0.0105,0.0207,13.0,0.0,12.0,0.5249,1.0,True,no clear difference
+Q2 selection,two-class,GA guided,SVM,GA guided,none,25.0,-0.0035,-0.023,0.0146,12.0,1.0,12.0,0.8553,1.0,True,no clear difference
+Q2 selection,two-class,ReliefF,random forest,ReliefF,none,25.0,0.0051,-0.0022,0.0127,15.0,2.0,8.0,0.1793,0.538,True,no clear difference
+Q2 selection,two-class,mutual information,random forest,mutual information,none,25.0,0.0012,-0.0128,0.0144,14.0,0.0,11.0,0.6721,1.0,True,no clear difference
+Q2 selection,two-class,mRMR,random forest,mRMR,none,25.0,0.0091,-0.0001,0.0181,17.0,1.0,7.0,0.0787,0.3936,True,no clear difference
+Q2 selection,two-class,IBGWO4 as published,random forest,IBGWO4 as published,none,25.0,-0.0369,-0.057,-0.0167,6.0,0.0,19.0,0.0031,0.0185,True,lower
+Q2 selection,two-class,GWO-CPO guided,random forest,GWO-CPO guided,none,25.0,-0.0342,-0.0503,-0.0171,7.0,0.0,18.0,0.001,0.0072,True,lower
+Q2 selection,two-class,BPSO guided,random forest,BPSO guided,none,25.0,-0.0147,-0.032,0.0014,8.0,1.0,16.0,0.114,0.4558,True,no clear difference
+Q2 selection,two-class,GA guided,random forest,GA guided,none,25.0,0.0008,-0.0117,0.0139,12.0,0.0,13.0,1.0,1.0,True,no clear difference
+Q2 selection,two-class,ReliefF,XGBoost,ReliefF,none,25.0,-0.0072,-0.0192,0.0051,11.0,1.0,13.0,0.2897,0.869,True,no clear difference
+Q2 selection,two-class,mutual information,XGBoost,mutual information,none,25.0,0.007,-0.0054,0.0196,15.0,1.0,9.0,0.4223,0.869,True,no clear difference
+Q2 selection,two-class,mRMR,XGBoost,mRMR,none,25.0,0.0108,-0.0021,0.0249,16.0,0.0,9.0,0.3254,0.869,True,no clear difference
+Q2 selection,two-class,IBGWO4 as published,XGBoost,IBGWO4 as published,none,25.0,-0.0531,-0.0733,-0.0335,3.0,0.0,22.0,0.0,0.0003,True,lower
+Q2 selection,two-class,GWO-CPO guided,XGBoost,GWO-CPO guided,none,25.0,-0.0491,-0.073,-0.0252,4.0,0.0,21.0,0.0001,0.0008,True,lower
+Q2 selection,two-class,BPSO guided,XGBoost,BPSO guided,none,25.0,-0.0189,-0.0381,-0.0023,10.0,2.0,13.0,0.0563,0.2813,True,no clear difference
+Q2 selection,two-class,GA guided,XGBoost,GA guided,none,25.0,-0.012,-0.03,0.0056,10.0,1.0,14.0,0.2076,0.8305,True,no clear difference
+Q3 optimisers,two-class,GWO-CPO guided - BPSO guided,5-NN,GWO-CPO guided,BPSO guided,25.0,0.011,-0.0039,0.0263,15.0,0.0,10.0,0.1908,,True,interchangeable
+Q3 optimisers,two-class,GWO-CPO guided - GA guided,5-NN,GWO-CPO guided,GA guided,25.0,0.0067,-0.0134,0.0276,10.0,0.0,15.0,0.5424,,True,interchangeable
+Q3 optimisers,two-class,BPSO guided - GA guided,5-NN,BPSO guided,GA guided,25.0,-0.0044,-0.0258,0.0163,11.0,0.0,14.0,0.8532,,True,interchangeable
+Q3 optimisers,two-class,GWO-CPO guided - BPSO guided,SVM,GWO-CPO guided,BPSO guided,25.0,-0.0088,-0.0191,0.0013,7.0,0.0,18.0,0.0851,,True,interchangeable
+Q3 optimisers,two-class,GWO-CPO guided - GA guided,SVM,GWO-CPO guided,GA guided,25.0,-0.0005,-0.0178,0.0181,13.0,0.0,12.0,0.751,,True,interchangeable
+Q3 optimisers,two-class,BPSO guided - GA guided,SVM,BPSO guided,GA guided,25.0,0.0083,-0.0094,0.0268,14.0,1.0,10.0,0.4732,,True,interchangeable
+Q3 optimisers,two-class,GWO-CPO guided - BPSO guided,random forest,GWO-CPO guided,BPSO guided,25.0,-0.0195,-0.0335,-0.0047,7.0,0.0,18.0,0.0236,,True,not shown interchangeable
+Q3 optimisers,two-class,GWO-CPO guided - GA guided,random forest,GWO-CPO guided,GA guided,25.0,-0.0351,-0.0513,-0.0195,3.0,1.0,21.0,0.0002,,True,not shown interchangeable
+Q3 optimisers,two-class,BPSO guided - GA guided,random forest,BPSO guided,GA guided,25.0,-0.0155,-0.0293,-0.0023,7.0,1.0,17.0,0.0457,,True,not shown interchangeable
+Q3 optimisers,two-class,GWO-CPO guided - BPSO guided,XGBoost,GWO-CPO guided,BPSO guided,25.0,-0.0302,-0.0498,-0.0115,4.0,1.0,20.0,0.0039,,True,not shown interchangeable
+Q3 optimisers,two-class,GWO-CPO guided - GA guided,XGBoost,GWO-CPO guided,GA guided,25.0,-0.037,-0.0564,-0.0201,6.0,0.0,19.0,0.0002,,True,not shown interchangeable
+Q3 optimisers,two-class,BPSO guided - GA guided,XGBoost,BPSO guided,GA guided,25.0,-0.0068,-0.0234,0.0101,11.0,2.0,12.0,0.4452,,True,not shown interchangeable
+Q3 replication,two-class,GWO-CPO guided - IBGWO4 as published,5-NN,GWO-CPO guided,IBGWO4 as published,25.0,0.0262,-0.0024,0.0575,14.0,1.0,10.0,0.2182,,True,does not replicate
+Q4 knobs,two-class,missing values vs selection,,,,,-0.0353,-0.0511,-0.0271,,,,,,True,selection matters more
+Q4 knobs,two-class,missing values vs classifier,,,,,-0.4331,-0.4744,-0.3956,,,,,,True,classifier matters more
+Q4 knobs,two-class,selection vs classifier,,,,,-0.3978,-0.4423,-0.3516,,,,,,True,classifier matters more
+Q5 indicators picked,two-class,ReliefF,,,,25.0,0.5793,0.4148,0.734,23.0,0.0,2.0,0.0,,True,more than chance
+Q5 indicators picked,two-class,mutual information,,,,25.0,-0.5274,-0.6932,-0.3481,4.0,0.0,21.0,0.0,,True,not shown
+Q5 indicators picked,two-class,mRMR,,,,25.0,-0.174,-0.2812,-0.0706,7.0,0.0,18.0,0.0074,,True,not shown
+Q5 indicators picked,two-class,IBGWO4 as published,,,,25.0,0.2786,-0.0479,0.6438,15.0,0.0,10.0,0.3525,,True,not shown
+Q5 indicators picked,two-class,GWO-CPO guided,,,,25.0,-0.1018,-0.1555,-0.0109,1.0,0.0,24.0,0.0001,,True,not shown
+Q5 indicators picked,two-class,BPSO guided,,,,25.0,-0.1487,-0.2732,0.0032,4.0,0.0,21.0,0.0667,,True,not shown
+Q5 indicators picked,two-class,GA guided,,,,25.0,-0.0201,-0.2728,0.278,10.0,0.0,15.0,0.7112,,True,not shown
+Q1 indicators,twelve-class,none,5-NN,median + indicators,median,25.0,-0.004,-0.0175,0.0099,12.0,2.0,11.0,0.5803,0.9915,True,no clear difference
+Q1 indicators,twelve-class,none,SVM,median + indicators,median,25.0,-0.014,-0.0286,-0.0006,9.0,0.0,16.0,0.1336,0.5346,True,no clear difference
+Q1 indicators,twelve-class,none,random forest,median + indicators,median,25.0,-0.0054,-0.0134,0.0025,10.0,1.0,14.0,0.3305,0.9915,True,no clear difference
+Q1 indicators,twelve-class,none,XGBoost,median + indicators,median,25.0,0.0035,-0.0029,0.0101,11.0,7.0,7.0,0.3927,0.9915,True,no clear difference
+Q2 selection,twelve-class,ReliefF,5-NN,ReliefF,none,25.0,0.0509,0.0317,0.0723,21.0,0.0,4.0,0.0,0.0,True,higher
+Q2 selection,twelve-class,mutual information,5-NN,mutual information,none,25.0,0.0941,0.0724,0.117,23.0,0.0,2.0,0.0,0.0,True,higher
+Q2 selection,twelve-class,mRMR,5-NN,mRMR,none,25.0,0.0995,0.0738,0.1261,24.0,0.0,1.0,0.0,0.0,True,higher
+Q2 selection,twelve-class,IBGWO4 as published,5-NN,IBGWO4 as published,none,25.0,0.161,0.1296,0.1928,25.0,0.0,0.0,0.0,0.0,True,higher
+Q2 selection,twelve-class,GWO-CPO guided,5-NN,GWO-CPO guided,none,25.0,0.1907,0.1643,0.2182,25.0,0.0,0.0,0.0,0.0,True,higher
+Q2 selection,twelve-class,BPSO guided,5-NN,BPSO guided,none,25.0,0.1559,0.1278,0.1848,24.0,0.0,1.0,0.0,0.0,True,higher
+Q2 selection,twelve-class,GA guided,5-NN,GA guided,none,25.0,0.1509,0.1245,0.1768,25.0,0.0,0.0,0.0,0.0,True,higher
+Q2 selection,twelve-class,ReliefF,SVM,ReliefF,none,25.0,-0.0476,-0.0708,-0.023,6.0,0.0,19.0,0.0015,0.0102,True,lower
+Q2 selection,twelve-class,mutual information,SVM,mutual information,none,25.0,-0.0426,-0.0696,-0.0155,7.0,0.0,18.0,0.0088,0.0441,True,lower
+Q2 selection,twelve-class,mRMR,SVM,mRMR,none,25.0,-0.0106,-0.0404,0.0208,12.0,0.0,13.0,0.3123,0.3123,True,no clear difference
+Q2 selection,twelve-class,IBGWO4 as published,SVM,IBGWO4 as published,none,25.0,-0.043,-0.0734,-0.0111,7.0,0.0,18.0,0.0147,0.0589,True,no clear difference
+Q2 selection,twelve-class,GWO-CPO guided,SVM,GWO-CPO guided,none,25.0,-0.0417,-0.0768,-0.0048,5.0,0.0,20.0,0.0318,0.0954,True,no clear difference
+Q2 selection,twelve-class,BPSO guided,SVM,BPSO guided,none,25.0,-0.0327,-0.0687,0.0031,11.0,0.0,14.0,0.1485,0.297,True,no clear difference
+Q2 selection,twelve-class,GA guided,SVM,GA guided,none,25.0,-0.0443,-0.0675,-0.0196,6.0,0.0,19.0,0.0023,0.0135,True,lower
+Q2 selection,twelve-class,ReliefF,random forest,ReliefF,none,25.0,0.0315,0.0165,0.0482,19.0,0.0,6.0,0.0006,0.0044,True,higher
+Q2 selection,twelve-class,mutual information,random forest,mutual information,none,25.0,0.0283,0.0118,0.0468,18.0,0.0,7.0,0.0067,0.0404,True,higher
+Q2 selection,twelve-class,mRMR,random forest,mRMR,none,25.0,0.0119,-0.0009,0.0259,16.0,0.0,9.0,0.173,0.5189,True,no clear difference
+Q2 selection,twelve-class,IBGWO4 as published,random forest,IBGWO4 as published,none,25.0,-0.0034,-0.0198,0.0147,11.0,0.0,14.0,0.5249,0.9816,True,no clear difference
+Q2 selection,twelve-class,GWO-CPO guided,random forest,GWO-CPO guided,none,25.0,0.017,-0.007,0.0393,17.0,0.0,8.0,0.1135,0.454,True,no clear difference
+Q2 selection,twelve-class,BPSO guided,random forest,BPSO guided,none,25.0,0.0207,-0.004,0.0452,15.0,0.0,10.0,0.0903,0.4516,True,no clear difference
+Q2 selection,twelve-class,GA guided,random forest,GA guided,none,25.0,0.0041,-0.0096,0.017,15.0,0.0,10.0,0.4908,0.9816,True,no clear difference
+Q2 selection,twelve-class,ReliefF,XGBoost,ReliefF,none,25.0,-0.02,-0.0383,-0.0007,8.0,0.0,17.0,0.0667,0.2668,True,no clear difference
+Q2 selection,twelve-class,mutual information,XGBoost,mutual information,none,25.0,-0.0149,-0.0403,0.0103,10.0,0.0,15.0,0.2996,0.4607,True,no clear difference
+Q2 selection,twelve-class,mRMR,XGBoost,mRMR,none,25.0,-0.0097,-0.0307,0.011,8.0,0.0,17.0,0.1485,0.4454,True,no clear difference
+Q2 selection,twelve-class,IBGWO4 as published,XGBoost,IBGWO4 as published,none,25.0,-0.0543,-0.0802,-0.0287,6.0,0.0,19.0,0.0007,0.005,True,lower
+Q2 selection,twelve-class,GWO-CPO guided,XGBoost,GWO-CPO guided,none,25.0,-0.0417,-0.0665,-0.0139,5.0,0.0,20.0,0.0105,0.0631,True,no clear difference
+Q2 selection,twelve-class,BPSO guided,XGBoost,BPSO guided,none,25.0,-0.0328,-0.0675,0.0042,7.0,0.0,18.0,0.0318,0.159,True,no clear difference
+Q2 selection,twelve-class,GA guided,XGBoost,GA guided,none,25.0,-0.0147,-0.0375,0.0093,10.0,0.0,15.0,0.2304,0.4607,True,no clear difference
+Q3 optimisers,twelve-class,GWO-CPO guided - BPSO guided,5-NN,GWO-CPO guided,BPSO guided,25.0,0.0348,0.0082,0.0626,18.0,0.0,7.0,0.0219,,True,not shown interchangeable
+Q3 optimisers,twelve-class,GWO-CPO guided - GA guided,5-NN,GWO-CPO guided,GA guided,25.0,0.0398,0.0175,0.064,20.0,0.0,5.0,0.0028,,True,not shown interchangeable
+Q3 optimisers,twelve-class,BPSO guided - GA guided,5-NN,BPSO guided,GA guided,25.0,0.005,-0.0284,0.0352,12.0,0.0,13.0,0.615,,True,not shown interchangeable
+Q3 optimisers,twelve-class,GWO-CPO guided - BPSO guided,SVM,GWO-CPO guided,BPSO guided,25.0,-0.009,-0.0366,0.0177,10.0,0.0,15.0,0.5077,,True,not shown interchangeable
+Q3 optimisers,twelve-class,GWO-CPO guided - GA guided,SVM,GWO-CPO guided,GA guided,25.0,0.0026,-0.0205,0.0274,12.0,0.0,13.0,0.8949,,True,not shown interchangeable
+Q3 optimisers,twelve-class,BPSO guided - GA guided,SVM,BPSO guided,GA guided,25.0,0.0116,-0.0127,0.0367,16.0,0.0,9.0,0.3666,,True,not shown interchangeable
+Q3 optimisers,twelve-class,GWO-CPO guided - BPSO guided,random forest,GWO-CPO guided,BPSO guided,25.0,-0.0036,-0.027,0.0227,9.0,0.0,16.0,0.2872,,True,not shown interchangeable
+Q3 optimisers,twelve-class,GWO-CPO guided - GA guided,random forest,GWO-CPO guided,GA guided,25.0,0.0129,-0.0105,0.0382,16.0,0.0,9.0,0.2635,,True,not shown interchangeable
+Q3 optimisers,twelve-class,BPSO guided - GA guided,random forest,BPSO guided,GA guided,25.0,0.0166,-0.0066,0.0379,15.0,0.0,10.0,0.1073,,True,not shown interchangeable
+Q3 optimisers,twelve-class,GWO-CPO guided - BPSO guided,XGBoost,GWO-CPO guided,BPSO guided,25.0,-0.0089,-0.0345,0.0162,9.0,0.0,16.0,0.5077,,True,not shown interchangeable
+Q3 optimisers,twelve-class,GWO-CPO guided - GA guided,XGBoost,GWO-CPO guided,GA guided,25.0,-0.027,-0.0526,-0.0006,8.0,0.0,17.0,0.071,,True,not shown interchangeable
+Q3 optimisers,twelve-class,BPSO guided - GA guided,XGBoost,BPSO guided,GA guided,25.0,-0.0181,-0.0513,0.0139,11.0,0.0,14.0,0.2411,,True,not shown interchangeable
+Q3 replication,twelve-class,GWO-CPO guided - IBGWO4 as published,5-NN,GWO-CPO guided,IBGWO4 as published,25.0,0.0298,-0.0021,0.0603,17.0,0.0,8.0,0.0393,,True,replicates
+Q4 knobs,twelve-class,missing values vs selection,,,,,-0.0215,-0.0438,-0.0116,,,,,,True,selection matters more
+Q4 knobs,twelve-class,missing values vs classifier,,,,,-0.4042,-0.4491,-0.3671,,,,,,True,classifier matters more
+Q4 knobs,twelve-class,selection vs classifier,,,,,-0.3827,-0.4314,-0.3316,,,,,,True,classifier matters more
+Q5 indicators picked,twelve-class,ReliefF,,,,25.0,0.9125,0.7773,1.0493,25.0,0.0,0.0,0.0,,True,more than chance
+Q5 indicators picked,twelve-class,mutual information,,,,25.0,-0.8798,-0.9843,-0.7739,0.0,0.0,25.0,0.0,,True,not shown
+Q5 indicators picked,twelve-class,mRMR,,,,25.0,-0.7313,-0.8489,-0.6137,0.0,0.0,25.0,0.0,,True,not shown
+Q5 indicators picked,twelve-class,IBGWO4 as published,,,,25.0,0.3294,0.0701,0.6072,14.0,0.0,11.0,0.0275,,True,more than chance
+Q5 indicators picked,twelve-class,GWO-CPO guided,,,,25.0,-0.1174,-0.1682,-0.0278,1.0,0.0,24.0,0.0001,,True,not shown
+Q5 indicators picked,twelve-class,BPSO guided,,,,25.0,-0.2906,-0.3507,-0.2083,1.0,0.0,24.0,0.0,,True,not shown
+Q5 indicators picked,twelve-class,GA guided,,,,25.0,0.2589,0.0165,0.5188,17.0,0.0,8.0,0.22,,True,not shown

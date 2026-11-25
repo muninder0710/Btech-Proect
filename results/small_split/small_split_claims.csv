@@ -1,0 +1,7 @@
+claim,classifier,value,threshold,holds,best_clean_median
+(i) 42-patient test set too small for a 95% claim,HistGradientBoosting,0.19047619047619047,0.1,True,True
+(ii) selecting on all records inflated accuracy,LogisticRegression,-0.00047619047619047174,0.0,False,False
+(ii) selecting on all records inflated accuracy,LDA,-0.005357142857142859,0.0,False,False
+(ii) selecting on all records inflated accuracy,GaussianNB,0.016309523809523805,0.0,True,False
+(ii) selecting on all records inflated accuracy,DecisionTree,0.009523809523809523,0.0,True,False
+(ii) selecting on all records inflated accuracy,HistGradientBoosting,0.015357142857142854,0.0,True,True

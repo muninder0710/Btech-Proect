@@ -1,0 +1,11 @@
+arm,test_size,classifier,acc
+paper,42,LogisticRegression,0.8571428571428571
+paper,42,LDA,0.7380952380952381
+paper,42,GaussianNB,0.7857142857142857
+paper,42,DecisionTree,0.7380952380952381
+paper,42,HistGradientBoosting,0.8809523809523809
+clean,42,LogisticRegression,0.8333333333333334
+clean,42,LDA,0.7380952380952381
+clean,42,GaussianNB,0.7857142857142857
+clean,42,DecisionTree,0.6428571428571429
+clean,42,HistGradientBoosting,0.7857142857142857

@@ -1,0 +1,14 @@
+Method,normal find,metastases,malign lymph,fibrosis
+BPSO / accuracy,0.6,0.793,0.751,0.85
+BGWO / accuracy,0.3,0.689,0.754,0.7
+BCPO / accuracy,0.5,0.699,0.741,0.6
+IBGWO4 / accuracy,0.5,0.714,0.751,0.6
+GWO-CPO / accuracy,0.5,0.699,0.774,0.7
+BPSO / imbalance,0.3,0.8,0.715,1.0
+BGWO / imbalance,0.6,0.701,0.698,0.75
+BCPO / imbalance,0.5,0.743,0.679,1.0
+IBGWO4 / imbalance,0.7,0.699,0.728,0.85
+GWO-CPO / imbalance,0.8,0.642,0.692,0.85
+All features,1.0,0.877,0.83,1.0
+ANOVA-k,0.3,0.659,0.639,1.0
+Majority,0.0,1.0,0.0,0.0

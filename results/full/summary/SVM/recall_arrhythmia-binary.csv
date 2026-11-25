@@ -1,0 +1,14 @@
+Method,Normal,Arrhythmia
+BPSO / accuracy,0.899,0.61
+BGWO / accuracy,0.878,0.601
+BCPO / accuracy,0.898,0.568
+IBGWO4 / accuracy,0.893,0.588
+GWO-CPO / accuracy,0.891,0.574
+BPSO / imbalance,0.873,0.616
+BGWO / imbalance,0.893,0.584
+BCPO / imbalance,0.887,0.572
+IBGWO4 / imbalance,0.881,0.599
+GWO-CPO / imbalance,0.894,0.565
+All features,0.876,0.625
+ANOVA-k,0.868,0.632
+Majority,1.0,0.0

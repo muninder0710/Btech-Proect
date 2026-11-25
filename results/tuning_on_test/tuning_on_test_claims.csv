@@ -1,0 +1,4 @@
+claim,value,ci_low,ci_high,holds
+tuning on the test patients inflates the printed accuracy,0.09226190476190477,0.06964285714285715,0.11547619047619047,True
+fair tuning shows a gap between test and new patients,0.023214285714285708,-0.0029761904761904795,0.0494047619047619,False
+no claim: shortcut minus fair accuracy on the same test patients,0.0732142857142857,0.05892857142857143,0.0869047619047619,

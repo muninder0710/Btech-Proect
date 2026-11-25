@@ -1,0 +1,9 @@
+dataset,run,reading,arm,algorithm,fitness,start,start_size,n_features,best_fitness,acc,bacc,macro_f1
+Brain_Tumor1,26,paper,base as published,IBGWO4,accuracy,random,2939.7,7,1.1824324324324325e-05,1.0,1.0,1.0
+Brain_Tumor1,26,paper,hybrid alone,GWO-CPO,accuracy,random,2939.7,4,6.756756756756757e-06,1.0,1.0,1.0
+Brain_Tumor1,26,paper,base with smart start,IBGWO4,accuracy,informed,181.3,3,5.067567567567567e-06,1.0,1.0,1.0
+Brain_Tumor1,26,paper,proposed,GWO-CPO,imbalance,informed,181.3,2,3.3783783783783783e-06,1.0,1.0,1.0
+Brain_Tumor1,26,clean,base as published,IBGWO4,accuracy,random,2939.7,23,0.12378885135135136,0.9444444444444444,0.8333333333333334,0.8222222222222223
+Brain_Tumor1,26,clean,hybrid alone,GWO-CPO,accuracy,random,2939.7,12,0.13752027027027022,0.7777777777777778,0.4761904761904762,0.5111111111111111
+Brain_Tumor1,26,clean,base with smart start,IBGWO4,accuracy,informed,181.3,19,0.05503209459459461,0.9444444444444444,0.9761904761904763,0.9209876543209877
+Brain_Tumor1,26,clean,proposed,GWO-CPO,imbalance,informed,181.3,34,0.17345642233142228,0.9444444444444444,0.8333333333333334,0.8773946360153256

@@ -1,0 +1,49 @@
+Downloaded by fetch_data.py from the UCI Machine Learning Repository.
+Every dataset is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0),
+https://creativecommons.org/licenses/by/4.0/
+
+arrhythmia/
+  page   https://archive.ics.uci.edu/dataset/5/arrhythmia
+  zip    https://archive.ics.uci.edu/static/public/5/arrhythmia.zip
+  doi    https://doi.org/10.24432/C5BS32
+  sha256 a7f0f4ca289a4c58b5ed85a9adb793189acd38425828ce3dfbb70adb45f30169  arrhythmia.data
+  sha256 c99ec888e05d61fb8201f2fc426ff5f41b548d7e61536d33edc5b3d6cfce2660  arrhythmia.names
+
+lymphography/
+  page   https://archive.ics.uci.edu/dataset/63/lymphography
+  zip    https://archive.ics.uci.edu/static/public/63/lymphography.zip
+  doi    https://doi.org/10.24432/C54598
+  sha256 6c41291f4f26f907957a100d3bd9a45df021d4baf23f159c7a320615ff7551df  Index
+  sha256 e17d22d071341af08a505a10eb558afc835e302b02c8b381c1fa3dd305731935  lymphography.data
+  sha256 65befbda99542348bb42f698fcb7bd4c24c8cd499bb542ce3ffa8db0f5691ac4  lymphography.names
+
+dermatology/
+  page   https://archive.ics.uci.edu/dataset/33/dermatology
+  zip    https://archive.ics.uci.edu/static/public/33/dermatology.zip
+  doi    https://doi.org/10.24432/C5FK5P
+  sha256 455eba77f72cd087ce54a5a266c514c5f34e85000c8689ad09e796d68ad45742  dermatology.data
+  sha256 557431c0e7d02e2bd531710ba838729ba3ead514ae4efd915ac24f0983efd0d9  dermatology.names
+
+spect/
+  page   https://archive.ics.uci.edu/dataset/95/spect+heart
+  zip    https://archive.ics.uci.edu/static/public/95/spect+heart.zip
+  doi    https://doi.org/10.24432/C5P304
+  sha256 7a4b0013a43cfcf6d2d326bfc6fe49a7d0a6b7f3c8ce015d58c2c770b28f2d38  DonorNote.txt
+  sha256 3e3d2a3b273e6700b9c71112c9335b07f40179dcb025f1f9a05e0ceb257dc20f  SPECT.names
+  sha256 a152d1812a84da3ad18e759ac3433e57f407a6871c2f2fe0dda6779c90d58b82  SPECT.test
+  sha256 0fd0258bfc8eb986623a45890676465ee92e738a95fdc01a6aef893d9c920115  SPECT.train
+
+statlog-heart/
+  page   https://archive.ics.uci.edu/dataset/145/statlog+heart
+  zip    https://archive.ics.uci.edu/static/public/145/statlog+heart.zip
+  doi    https://doi.org/10.24432/C57303
+  sha256 07e1ca0654e35f06bbe2d42b0531b76fb6509a80f0f82e17410cd01bd8b5eb8a  Index
+  sha256 f5f3b4204c285bafadd85cb735f38b47689f2be7047feb172dcbeab648110bf9  heart.dat
+  sha256 4e1c153ddcb6e718c125edcb2d7c47c3db9c97282a358957753f9c2ad987054e  heart.doc
+
+wdbc/
+  page   https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
+  zip    https://archive.ics.uci.edu/static/public/17/breast+cancer+wisconsin+diagnostic.zip
+  doi    https://doi.org/10.24432/C5DW2B
+  sha256 d606af411f3e5be8a317a5a8b652b425aaf0ff38ca683d5327ffff94c3695f4a  wdbc.data
+  sha256 840e04e3f20f8a5b326892f3b9cbc01c4cd6f7e6c597630b701ef6c0ac79f5ef  wdbc.names

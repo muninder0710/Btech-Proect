@@ -1,0 +1,25 @@
+task,labels,algorithm,metric,mean_diff,ci_low,ci_high,excludes_zero,verdict
+arrhythmia-binary,permuted,BCPO,acc,0.18705882352941175,0.16500000000000004,0.21,True,control (no claim)
+arrhythmia-binary,permuted,BCPO,bacc,0.18593730522701338,0.1636941309881661,0.21004838034641526,True,control (no claim)
+arrhythmia-binary,permuted,BCPO,macro_f1,0.188271153768763,0.16564413183345963,0.21234199085372318,True,control (no claim)
+arrhythmia-binary,permuted,GWO-CPO,acc,0.2238235294117647,0.20500000000000004,0.24030147058823528,True,control (no claim)
+arrhythmia-binary,permuted,GWO-CPO,bacc,0.22041649596584356,0.2005100895652848,0.23761261869888836,True,control (no claim)
+arrhythmia-binary,permuted,GWO-CPO,macro_f1,0.2251182404900155,0.20561011783688796,0.24220909381295502,True,control (no claim)
+arrhythmia-binary,true,BCPO,acc,0.11,0.09264705882352942,0.12471323529411761,True,inflates
+arrhythmia-binary,true,BCPO,bacc,0.11321708805579775,0.09512576285963385,0.12853618134263295,True,inflates
+arrhythmia-binary,true,BCPO,macro_f1,0.11715297364169257,0.09838534885280291,0.13286703225669738,True,inflates
+arrhythmia-binary,true,GWO-CPO,acc,0.13794117647058823,0.12735294117647059,0.1485294117647059,True,inflates
+arrhythmia-binary,true,GWO-CPO,bacc,0.13983435047951176,0.1284906277244987,0.1511342632955536,True,inflates
+arrhythmia-binary,true,GWO-CPO,macro_f1,0.14492823305296973,0.13303810273114883,0.15664423470587668,True,inflates
+arrhythmia-multiclass,permuted,BCPO,acc,0.07441176470588234,0.06411029411764704,0.08500735294117644,True,control (no claim)
+arrhythmia-multiclass,permuted,BCPO,bacc,0.040509038876285146,0.03292585151640416,0.04937303916660194,True,control (no claim)
+arrhythmia-multiclass,permuted,BCPO,macro_f1,0.05534334130920369,0.045160230611009204,0.06735015896817491,True,control (no claim)
+arrhythmia-multiclass,permuted,GWO-CPO,acc,0.08352941176470587,0.07175735294117645,0.09647058823529413,True,control (no claim)
+arrhythmia-multiclass,permuted,GWO-CPO,bacc,0.046596909734457806,0.03931253638651526,0.05499666855594822,True,control (no claim)
+arrhythmia-multiclass,permuted,GWO-CPO,macro_f1,0.06679156955551593,0.05639950712543213,0.07839167365778638,True,control (no claim)
+arrhythmia-multiclass,true,BCPO,acc,0.06441176470588235,0.04999999999999998,0.07911764705882351,True,inflates
+arrhythmia-multiclass,true,BCPO,bacc,0.08231498531498532,0.05322434989934988,0.11174078185328178,True,inflates
+arrhythmia-multiclass,true,BCPO,macro_f1,0.08703636343171542,0.05473579979080606,0.1182560166385638,True,inflates
+arrhythmia-multiclass,true,GWO-CPO,acc,0.06764705882352942,0.0573529411764706,0.07911764705882353,True,inflates
+arrhythmia-multiclass,true,GWO-CPO,bacc,0.081979770979771,0.06170139363264363,0.102047107959608,True,inflates
+arrhythmia-multiclass,true,GWO-CPO,macro_f1,0.087509901789615,0.0655217386063059,0.11031253921499808,True,inflates

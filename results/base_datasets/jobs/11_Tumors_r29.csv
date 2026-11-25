@@ -1,0 +1,9 @@
+dataset,run,reading,arm,algorithm,fitness,start,start_size,n_features,best_fitness,acc,bacc,macro_f1
+11_Tumors,29,paper,base as published,IBGWO4,accuracy,random,6286.3,169,0.02842055829752312,0.9714285714285714,0.95,0.9555555555555555
+11_Tumors,29,paper,hybrid alone,GWO-CPO,accuracy,random,6286.3,102,0.028367099428936192,0.9714285714285714,0.95,0.9575757575757576
+11_Tumors,29,paper,base with smart start,IBGWO4,accuracy,informed,479.2,19,1.5159977658980292e-05,1.0,1.0,1.0
+11_Tumors,29,paper,proposed,GWO-CPO,imbalance,informed,479.2,26,2.0745232585973032e-05,1.0,1.0,1.0
+11_Tumors,29,clean,base as published,IBGWO4,accuracy,random,6286.3,577,0.1215395212753439,0.8285714285714286,0.7833333333333333,0.7464646464646465
+11_Tumors,29,clean,hybrid alone,GWO-CPO,accuracy,random,6286.3,407,0.10003697289515397,0.7142857142857143,0.6799999999999999,0.6146697746697747
+11_Tumors,29,clean,base with smart start,IBGWO4,accuracy,informed,479.2,123,0.042831953857643115,0.8,0.7083333333333333,0.6775757575757576
+11_Tumors,29,clean,proposed,GWO-CPO,imbalance,informed,479.2,202,0.06267675840879831,0.8857142857142857,0.8333333333333333,0.8444444444444444

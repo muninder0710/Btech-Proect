@@ -1,0 +1,11 @@
+dataset,accuracy / paper-style test / base as published,accuracy / clean test / base as published,accuracy / clean test / hybrid alone,accuracy / clean test / base with smart start,accuracy / clean test / proposed,macro-F1 / clean test / base as published,macro-F1 / clean test / hybrid alone,macro-F1 / clean test / base with smart start,macro-F1 / clean test / proposed,genes kept / clean test / base as published,genes kept / clean test / hybrid alone,genes kept / clean test / base with smart start,genes kept / clean test / proposed
+11_Tumors,0.956,0.776,0.759,0.836,0.853,0.696,0.676,0.781,0.801,643.033,264.433,117.267,126.633
+14_Tumors,0.616,0.422,0.424,0.459,0.465,0.334,0.339,0.374,0.380,1071.900,536.667,370.833,260.400
+Brain_Tumor1,0.907,0.739,0.761,0.778,0.769,0.448,0.470,0.547,0.521,31.133,13.767,14.567,16.467
+Brain_Tumor2,0.983,0.660,0.630,0.730,0.683,0.617,0.558,0.698,0.635,172.900,50.400,12.033,17.467
+Leukemia1,0.996,0.869,0.853,0.913,0.893,0.813,0.804,0.880,0.842,106.767,30.600,5.833,5.833
+Leukemia2,1.000,0.860,0.844,0.893,0.867,0.844,0.824,0.874,0.849,112.033,41.267,7.167,7.867
+DLBCL,0.998,0.883,0.892,0.894,0.875,0.828,0.824,0.829,0.795,52.167,18.133,5.100,5.300
+Prostate_Tumor,0.986,0.849,0.852,0.873,0.875,0.844,0.850,0.871,0.871,208.833,39.700,6.600,6.167
+SRBCT,1.000,0.920,0.878,0.906,0.898,0.924,0.873,0.900,0.905,70.600,34.600,6.767,7.400
+Mean of the nine,0.938,0.775,0.766,0.809,0.797,0.705,0.691,0.750,0.733,274.374,114.396,60.685,50.393

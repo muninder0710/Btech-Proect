@@ -1,0 +1,14 @@
+Method,diagnosis 0,diagnosis 1
+BPSO / accuracy,0.542,0.839
+BGWO / accuracy,0.513,0.841
+BCPO / accuracy,0.52,0.852
+IBGWO4 / accuracy,0.556,0.835
+GWO-CPO / accuracy,0.556,0.829
+BPSO / imbalance,0.553,0.822
+BGWO / imbalance,0.407,0.87
+BCPO / imbalance,0.48,0.844
+IBGWO4 / imbalance,0.509,0.83
+GWO-CPO / imbalance,0.52,0.834
+All features,0.513,0.851
+ANOVA-k,0.618,0.773
+Majority,0.0,1.0

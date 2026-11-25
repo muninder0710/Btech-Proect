@@ -1,0 +1,9 @@
+dataset,run,reading,arm,algorithm,fitness,start,start_size,n_features,best_fitness,acc,bacc,macro_f1
+Prostate_Tumor,16,paper,base as published,IBGWO4,accuracy,random,5259.6,13,0.04715522749208167,0.9523809523809523,0.9444444444444444,0.9505882352941177
+Prostate_Tumor,16,paper,hybrid alone,GWO-CPO,accuracy,random,5259.6,7,6.66095727471691e-06,1.0,1.0,1.0
+Prostate_Tumor,16,paper,base with smart start,IBGWO4,accuracy,informed,57.8,3,0.04714571183883207,0.9523809523809523,0.9444444444444444,0.9505882352941177
+Prostate_Tumor,16,paper,proposed,GWO-CPO,imbalance,informed,57.8,5,0.05125965978740906,0.9523809523809523,0.9444444444444444,0.9505882352941177
+Prostate_Tumor,16,clean,base as published,IBGWO4,accuracy,random,5259.6,167,0.03682557807593497,0.7619047619047619,0.7638888888888888,0.7597254004576658
+Prostate_Tumor,16,clean,hybrid alone,GWO-CPO,accuracy,random,5259.6,17,0.01223839883274659,0.7619047619047619,0.7638888888888888,0.7597254004576658
+Prostate_Tumor,16,clean,base with smart start,IBGWO4,accuracy,informed,57.8,7,0.012228883179496993,0.8571428571428571,0.8472222222222222,0.851764705882353
+Prostate_Tumor,16,clean,proposed,GWO-CPO,imbalance,informed,57.8,9,0.012645587681391023,0.7142857142857143,0.7222222222222222,0.7136363636363636

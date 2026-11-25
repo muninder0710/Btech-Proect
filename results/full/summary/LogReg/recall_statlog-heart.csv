@@ -1,0 +1,14 @@
+Method,absence,presence
+BPSO / accuracy,0.839,0.782
+BGWO / accuracy,0.82,0.777
+BCPO / accuracy,0.824,0.79
+IBGWO4 / accuracy,0.831,0.78
+GWO-CPO / accuracy,0.828,0.778
+BPSO / imbalance,0.832,0.777
+BGWO / imbalance,0.833,0.78
+BCPO / imbalance,0.829,0.77
+IBGWO4 / imbalance,0.832,0.777
+GWO-CPO / imbalance,0.833,0.782
+All features,0.853,0.807
+ANOVA-k,0.839,0.807
+Majority,1.0,0.0

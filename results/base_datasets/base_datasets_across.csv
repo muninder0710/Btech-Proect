@@ -1,0 +1,25 @@
+reading,comparison,metric,primary,datasets,higher_in,lower_in,mean_diff,median_diff,p,verdict
+paper,hybrid alone,acc,True,9,3,3,0.001528512639623751,0.0,0.6001794871405538,no clear difference
+paper,hybrid alone,macro_f1,False,9,3,4,-0.003542156579282684,0.0,0.6120898800892568,no clear difference
+paper,hybrid alone,bacc,False,9,3,4,-0.003125640121706373,0.0,0.6120898800892568,no clear difference
+paper,hybrid alone,n_features,False,9,0,9,-51.077777777777776,-1.4666666666666666,0.00390625,lower
+paper,start alone,acc,True,9,4,3,0.009400850543323663,0.0,0.39802471950693774,no clear difference
+paper,start alone,macro_f1,False,9,5,3,0.011459441977296187,0.0025764895330112688,0.20757844233562428,no clear difference
+paper,start alone,bacc,False,9,5,3,0.01228547459171819,0.0033333333333333327,0.16142946236708322,no clear difference
+paper,start alone,n_features,False,9,0,9,-75.74444444444445,-3.1,0.00390625,lower
+paper,proposed model,acc,False,9,6,0,0.009706742713015113,0.0020833333333333333,0.027707849358079868,higher
+paper,proposed model,macro_f1,True,9,7,0,0.022364425923415625,0.0025764895330112688,0.017960477526078763,higher
+paper,proposed model,bacc,False,9,7,0,0.016781756870537276,0.0033333333333333327,0.017960477526078763,higher
+paper,proposed model,n_features,False,9,0,9,-68.32222222222222,-2.933333333333333,0.00390625,lower
+clean,hybrid alone,acc,True,9,4,5,-0.00928330471973736,-0.015555555555555552,0.30078125,no clear difference
+clean,hybrid alone,macro_f1,False,9,3,6,-0.014306063242585952,-0.008846968925658328,0.25,no clear difference
+clean,hybrid alone,bacc,False,9,4,5,-0.013604208613041503,-0.015073352573352575,0.203125,no clear difference
+clean,hybrid alone,n_features,False,9,0,9,-159.97777777777776,-76.16666666666667,0.00390625,lower
+clean,start alone,acc,True,9,8,1,0.03386686394988102,0.03763440860215053,0.01171875,higher
+clean,start alone,macro_f1,False,9,8,1,0.04494789267407065,0.0402973017339725,0.01171875,higher
+clean,start alone,bacc,False,9,7,2,0.042500825463062476,0.038609664123963966,0.01953125,higher
+clean,start alone,n_features,False,9,0,9,-213.68888888888887,-104.86666666666666,0.00390625,lower
+clean,proposed model,acc,False,9,7,2,0.022191394279734985,0.024444444444444442,0.0390625,higher
+clean,proposed model,macro_f1,True,9,7,2,0.02787338813918648,0.02691430672231139,0.12890625,no clear difference
+clean,proposed model,bacc,False,9,7,2,0.02482521959680005,0.02516862766862766,0.12890625,no clear difference
+clean,proposed model,n_features,False,9,0,9,-223.98148148148147,-104.16666666666667,0.00390625,lower

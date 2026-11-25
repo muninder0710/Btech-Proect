@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# The nine GEMS gene-expression datasets carry no licence: download them with fetch_gems.py, never commit them
+data/gems/
+
+# Smoke runs and stale runs are rebuilt by the scripts
+results/*smoke*/
+results/*.stale-*/
+
+# Resume cache of what_matters_demo.py (pickles); the CSVs next to it hold every result
+results/what_matters/folds/
+
+# Decks are written outside this folder, but never commit one by accident
+*.pptx
+
+.DS_Store

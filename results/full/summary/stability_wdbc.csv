@@ -1,0 +1,14 @@
+Method,Nogueira,Jaccard,Features
+BPSO / accuracy,0.043 ± 0.045,0.314 ± 0.021,13.5 ± 2.2
+BGWO / accuracy,0.106 ± 0.048,0.237 ± 0.028,8.9 ± 2.5
+BCPO / accuracy,0.166 ± 0.046,0.296 ± 0.043,10.3 ± 2.4
+IBGWO4 / accuracy,0.148 ± 0.018,0.275 ± 0.014,9.7 ± 2.3
+GWO-CPO / accuracy,0.114 ± 0.032,0.247 ± 0.032,9.2 ± 2.2
+BPSO / imbalance,0.069 ± 0.052,0.347 ± 0.016,14.3 ± 2.7
+BGWO / imbalance,0.148 ± 0.078,0.267 ± 0.040,9.4 ± 2.1
+BCPO / imbalance,0.126 ± 0.066,0.275 ± 0.030,10.3 ± 2.4
+IBGWO4 / imbalance,0.135 ± 0.122,0.297 ± 0.069,11.0 ± 2.8
+GWO-CPO / imbalance,0.147 ± 0.022,0.272 ± 0.024,9.7 ± 2.3
+All features,nan ± nan,1.000 ± 0.000,30.0 ± 0.0
+ANOVA-k,0.799 ± 0.080,0.780 ± 0.088,9.7 ± 2.3
+Majority,nan ± nan,nan ± nan,0.0 ± 0.0

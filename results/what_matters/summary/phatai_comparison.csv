@@ -1,0 +1,6 @@
+classifier,missing,selector,ours_accuracy,phatai_accuracy
+random forest,median,none,0.8124,0.7991
+random forest,median + indicators,none,0.8071,0.7995
+random forest,median + indicators,ReliefF,0.8133,0.8221
+SVM,median + indicators,none,0.7655,0.7499
+SVM,median + indicators,ReliefF,0.7792,0.7814

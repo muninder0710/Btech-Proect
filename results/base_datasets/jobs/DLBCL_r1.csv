@@ -1,0 +1,9 @@
+dataset,run,reading,arm,algorithm,fitness,start,start_size,n_features,best_fitness,acc,bacc,macro_f1
+DLBCL,1,paper,base as published,IBGWO4,accuracy,random,2712.3,4,7.3139513622234415e-06,1.0,1.0,1.0
+DLBCL,1,paper,hybrid alone,GWO-CPO,accuracy,random,2712.3,3,5.485463521667581e-06,1.0,1.0,1.0
+DLBCL,1,paper,base with smart start,IBGWO4,accuracy,informed,96.4,2,3.6569756811117208e-06,1.0,1.0,1.0
+DLBCL,1,paper,proposed,GWO-CPO,imbalance,informed,96.4,2,3.6569756811117208e-06,1.0,1.0,1.0
+DLBCL,1,clean,base as published,IBGWO4,accuracy,random,2712.3,71,0.0001298226366794661,0.9375,0.8333333333333333,0.8814814814814815
+DLBCL,1,clean,hybrid alone,GWO-CPO,accuracy,random,2712.3,16,2.9255805448893763e-05,0.9375,0.8333333333333333,0.8814814814814815
+DLBCL,1,clean,base with smart start,IBGWO4,accuracy,informed,96.4,4,7.313951362223441e-06,0.9375,0.8333333333333333,0.8814814814814815
+DLBCL,1,clean,proposed,GWO-CPO,imbalance,informed,96.4,7,1.2799414883891023e-05,0.875,0.9230769230769231,0.8333333333333333

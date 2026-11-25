@@ -1,0 +1,37 @@
+metric,comparison,n_folds,mean_diff,ci_low,ci_high,wins,ties,losses,p_exploratory,p_holm_exploratory
+acc,GWO-CPO / imbalance vs BPSO / accuracy,25,-0.0082,-0.0164,-0.0005,6,5,14,0.0441,0.3965
+acc,GWO-CPO / imbalance vs BGWO / accuracy,25,-0.0082,-0.017,-0.0005,5,9,11,0.1297,0.9081
+acc,GWO-CPO / imbalance vs BCPO / accuracy,25,-0.0066,-0.0153,0.0017,6,9,10,0.2312,1.0
+acc,GWO-CPO / imbalance vs IBGWO4 / accuracy,25,-0.0038,-0.0115,0.0027,4,13,8,0.6221,1.0
+acc,GWO-CPO / imbalance vs GWO-CPO / accuracy,25,-0.0,-0.0066,0.006,9,8,8,0.9265,1.0
+acc,GWO-CPO / imbalance vs BPSO / imbalance,25,-0.0082,-0.0175,-0.0005,6,8,11,0.1089,0.8711
+acc,GWO-CPO / imbalance vs BGWO / imbalance,25,-0.0049,-0.012,0.0016,4,13,8,0.2334,1.0
+acc,GWO-CPO / imbalance vs BCPO / imbalance,25,-0.0027,-0.0121,0.0055,6,13,6,0.6772,1.0
+acc,GWO-CPO / imbalance vs IBGWO4 / imbalance,25,-0.0039,-0.0143,0.006,8,6,11,0.2935,1.0
+acc,GWO-CPO / imbalance vs All features,25,-0.0126,-0.0225,-0.0039,4,7,14,0.0047,0.0475
+acc,GWO-CPO / imbalance vs ANOVA-k,25,0.1119,0.0991,0.1242,25,0,0,0.0,0.0
+acc,GWO-CPO / imbalance vs Majority,25,0.6579,0.648,0.6668,25,0,0,0.0,0.0
+bacc,GWO-CPO / imbalance vs BPSO / accuracy,25,-0.0066,-0.0169,0.0026,9,4,12,0.4524,1.0
+bacc,GWO-CPO / imbalance vs BGWO / accuracy,25,-0.0114,-0.021,-0.0027,7,5,13,0.0441,0.3965
+bacc,GWO-CPO / imbalance vs BCPO / accuracy,25,-0.007,-0.0172,0.003,7,8,10,0.2069,1.0
+bacc,GWO-CPO / imbalance vs IBGWO4 / accuracy,25,-0.0055,-0.0149,0.0031,7,10,8,0.4212,1.0
+bacc,GWO-CPO / imbalance vs GWO-CPO / accuracy,25,-0.0,-0.0076,0.0066,10,5,10,0.7841,1.0
+bacc,GWO-CPO / imbalance vs BPSO / imbalance,25,-0.0096,-0.0197,-0.0009,6,8,11,0.1202,0.9617
+bacc,GWO-CPO / imbalance vs BGWO / imbalance,25,-0.0063,-0.0149,0.0019,7,8,10,0.1901,1.0
+bacc,GWO-CPO / imbalance vs BCPO / imbalance,25,-0.0006,-0.0127,0.0114,9,7,9,1.0,1.0
+bacc,GWO-CPO / imbalance vs IBGWO4 / imbalance,25,-0.0031,-0.0145,0.0079,8,6,11,0.5678,1.0
+bacc,GWO-CPO / imbalance vs All features,25,-0.0152,-0.0259,-0.0059,4,4,17,0.0033,0.0328
+bacc,GWO-CPO / imbalance vs ANOVA-k,25,0.1144,0.1022,0.1265,25,0,0,0.0,0.0
+bacc,GWO-CPO / imbalance vs Majority,25,0.7929,0.7838,0.8016,25,0,0,0.0,0.0
+macro_f1,GWO-CPO / imbalance vs BPSO / accuracy,25,-0.0071,-0.0168,0.0023,8,3,14,0.2099,1.0
+macro_f1,GWO-CPO / imbalance vs BGWO / accuracy,25,-0.0105,-0.0206,-0.0015,9,5,11,0.114,0.9119
+macro_f1,GWO-CPO / imbalance vs BCPO / accuracy,25,-0.0062,-0.0165,0.0041,7,8,10,0.5171,1.0
+macro_f1,GWO-CPO / imbalance vs IBGWO4 / accuracy,25,-0.005,-0.0141,0.0033,9,8,8,0.5171,1.0
+macro_f1,GWO-CPO / imbalance vs GWO-CPO / accuracy,25,0.0005,-0.0071,0.0075,11,4,10,0.7079,1.0
+macro_f1,GWO-CPO / imbalance vs BPSO / imbalance,25,-0.0096,-0.0201,-0.001,6,8,11,0.0887,0.7979
+macro_f1,GWO-CPO / imbalance vs BGWO / imbalance,25,-0.0064,-0.0146,0.0015,7,8,10,0.1901,1.0
+macro_f1,GWO-CPO / imbalance vs BCPO / imbalance,25,-0.0017,-0.0131,0.0095,10,7,8,0.9323,1.0
+macro_f1,GWO-CPO / imbalance vs IBGWO4 / imbalance,25,-0.0031,-0.0152,0.0082,8,6,11,0.5949,1.0
+macro_f1,GWO-CPO / imbalance vs All features,25,-0.0141,-0.025,-0.0045,5,4,16,0.0216,0.2157
+macro_f1,GWO-CPO / imbalance vs ANOVA-k,25,0.1495,0.1305,0.1689,25,0,0,0.0,0.0
+macro_f1,GWO-CPO / imbalance vs Majority,25,0.8816,0.872,0.8905,25,0,0,0.0,0.0
